@@ -1,6 +1,6 @@
 # K8s Data Lake, 云原生大数据套件
 #
-# 部署须知:
+# 部署须知: 
 # 1. 默认 values.yaml 适配腾讯云, 适配其他环境建议新增 values-xxx.yaml 进行 patch
 # 2. 很多组件使用 PVC, PVC 配额需要根据业务需要进行调整
 # 3. 所有 Service 默认的 type 为 ClusterIP 以保证安全性, 需要 Service 设置为 NodePort 可以每个服务单独开启 (做好安全组限制)
