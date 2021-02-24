@@ -44,7 +44,7 @@ You can use `helm status <release name>` to view all of the installed components
 For example:
 ```console
 $ helm status lolling-chinchilla
-NAMESPACE: default
+NAMESPACE: default k8s-big-data-suite/charts/zookeeper/README.md
 STATUS: DEPLOYED
 
 RESOURCES:
